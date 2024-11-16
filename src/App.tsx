@@ -1,6 +1,4 @@
-import { CompoundComponent } from "./Compound-Components/CompoundComponent.tsx"
-import { Hoc } from "./Hoc/Hoc.tsx"
-import CompositionContext from "./context-composition-pattern/Product.tsx"
+import CompositionContext from "./context-composition-pattern/Product.tsx";
 
 function App() {
   return (
@@ -10,7 +8,7 @@ function App() {
       <Hoc /> */}
       <CompositionContext />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
